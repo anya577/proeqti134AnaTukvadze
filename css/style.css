@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;   
+}
+:root{
+  font-size: 16px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+body::-webkit-scrollbar{
+  width: 0.25rem;
+
+}
+body::-webkit-scrollbar-track{
+  background-color: rgb(160, 169, 236);
+}
+
+body, header{
+    
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 30px;
+    /* position: relative; */
+
+
+    
+}
+html, body {
+    max-width: 100%;
+    height: 1000px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+main{
+  margin-left: 5rem;
+  padding: 1rem;
+}
+    
+
+.nav{
+   width: 5rem;
+   height: 100vh;
+   position: fixed;   
+    background-color: var(--bg-primery);
+    font-weight: bolder;
+    float: right;
+    padding: -20px;
+    margin-top: -10px;
+    
+    }
+.nav-nav{
+display: flex;
+flex-direction: row;
+}
+.nav-item{
+  width: 100%;
+}
+/* .nav-item:last-child{
+  margin-top: auto;
+} */
+.nav-link{
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primery);
+  
+}
+/* .link-text{
+  display: none;
+  margin-left: 1rem;
+  
+} */
+header ul{
+    /* width: 40%; */
+    display: flex;
+    margin-left: 900px;
+    padding: 16px;
+    
+    
+}
+
+header ul a{
+   clear: both;
+    padding: 10px 30px;
+
+    
+    position: relative;
+    color: #fff;
+    
+
+}
+
+header ul a:hover{
+  transform: scale(1.3);
+  color: #000;
+  transition: 0.4s ease;
+}
+
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgba(200, 218, 224);
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
+
+.logo img{
+   
+position: absolute;
+margin-top: -30px;
+margin-left: -30px;
+
+width: 70px;
+height: 70px;
+
+}
+
+.item{
+  
+  height: 700px;
+  overflow: hidden;
+}
+
+.item .img{
+  margin-top: -100px;
+
+}
+
+
+.social{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    
+    border-radius:  50%; 
+    
+}
+
+.fb, .ins{
+    width: 50px;
+    height: 50px;
+    float: left;
+    /* margin: 20px 10px; */
+    position: relative;
+    padding: 0 auto;
+ 
+    
+       
+}
+
+.fb, .ins:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    
+}
+.fb:hover {
+    background-image: url(../images/fb2.png);
+}
+.ins:hover {
+    background-image: url(../images/ins2.png);
+}
+
+.fb{
+    background-image: url(../images/fb1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ins{
+    background-image: url(../images/ins1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.fb a, ins a{
+    display: block;
+    
+    width: 100%;
+    height: 50px;
+}
+
+.slider{
+    margin-top: 130px;
+    max-width: 100%;
+   
+}
+.wrapper{
+    /* margin: 0 auto; */
+    width: 1500px;
+    margin-right:  0;
+    margin-top: 50px;
+}
+.vid{
+    width: 40%;
+    height: 400px;
+}
+.frame{
+width: 1100px;
+height: 500px;
+margin-left: 700px;
+margin-top: -400px;
+position: relative;
+
+ 
+    
+
+}
+.vector1{     
+    
+    position: relative;
+    top: 0;
+    left: 0;
+   
+}
+
+.vector1:hover{
+  transform: scale(1.1);
+  transition: 2s;
+  
+}
+
+
+.textbox13, .textbox2, .textbox3, .textbox4{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 0;
+    left: 180px;
+}
+.textbox2{    
+    top: 180px;    
+ 
+}
+.textbox3{
+    top: 360px;
+
+}
+.textbox4{
+    top: 540px;
+}
+.t1 {
+    font-size: 20px;
+    color: #fff;
+}
+.title{
+    color: #fff;
+}
+.box1{
+    height: 200px;
+    width: 33.3%;
+    background-color: aqua;
+  
+    float: left;
+    margin-bottom: 50px;
+}
+.boxbox2{
+    width: 33.3%;
+    
+    height: 200px;
+    background-color: rgb(216, 135, 29);
+    
+}
+.boxbox3{
+    width: 33.3%;
+    background-color: rgb(196, 38, 48);
+    height: 200px;
+}
+.newsp{
+    font-size: 46px;
+    color: #fff;
+    margin-top: -600px;
+    margin-left: 1000px;
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: none;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+.map{
+
+   position: absolute;
+   top: 50px;
+   margin-left: -1220px;
+    
+}
+
+.contact{
+  position: relative;
+   color: #fff;
+   padding-left: 1240px; 
+   padding-top: 46px;    
+   cursor: pointer;
+    }
+
+    /* .total{
+        padding-top: 30px;
+        width: 25%;
+        height:200px;
+        padding-left: 5px;
+        border-style: none;
+        display: flex;     
+       
+    } */
+    .bigbox{
+        padding-top: 30px;
+        padding-left: 5px;
+        width: 33.33%;
+        height: 600px;
+        float: left;
+        
+        border-style: none;
+        display: flex;
+        /* flex-wrap: wrap; */
+        
+        position: relative;
+        
+    }
+    .imgbox{
+        position: absolute;
+        width: 100%;
+        padding: 10px;
+        height: 60%;
+        margin-top: 10px;
+        margin-left: 10px;
+        overflow: hidden;
+
+    }
+    .textbox{
+      
+       margin-top: 400px;
+       
+       width: 100%;
+    }
+        
+      .textbox h2, p{
+        color: #fff;
+      }
+       
+
+    
+
+      .burger{
+        font-size: 36px;
+      
+       }
+       
+       .bar{
+        display: none;
+
+       }
+      
+      
+      /* for small screens */
+        @media only screen and (max-width: 600px) {
+        header ul {
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          text-align: center;                 
+          
+        }
+        .bar{
+          display: block;
+
+        }
+        .nav{
+          display: none;
+        }
+        
+        
+        .logo{
+          display: none;
+        }             
+        
+       
+        .contact{
+          display: flex;
+          flex-direction: column;
+        }
+        .map{          
+          width: 100%; 
+                                   
+        }
+        .address1{
+
+       
+        width: 100%;
+        }
+        .social{
+          
+         position: absolute;
+         top: 50px;
+        }
+        .vid{
+          width: 100%;
+
+        }
+         .frame .vector1{
+          width: 100%;
+         } 
+         .frame .vector2{
+          width: 100%;
+         } 
+         .frame .vector3{
+          width: 100%;
+         } 
+         .frame .vector4{
+          width: 100%;
+         } 
+
+
+      }
+      
